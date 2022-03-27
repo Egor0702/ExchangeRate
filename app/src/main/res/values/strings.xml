@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExchangeRate</string>
+    <string name="item1">Валюта</string>
+    <string name="item2">Значение</string>
+    <string name="button2">Избранное</string>
+    <string name="button1">Популярное</string>
+
+</resources>
