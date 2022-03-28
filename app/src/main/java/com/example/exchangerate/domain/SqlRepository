@@ -1,0 +1,7 @@
+
+
+interface SqlRepository{
+fun saveRates(currency:String, value:String)
+fun getMapRates(): Map<String, String>
+fun saveMapRates(map:Map<String, String>)
+}
