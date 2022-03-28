@@ -1,0 +1,14 @@
+
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "currensy_table")
+data class CurrencyEntity (
+@PrimaryKey(autoGenerate = true)
+var id:Long
+@ColumnInfo
+var currency:String
+@ColumnInfo
+var value:String
+)
